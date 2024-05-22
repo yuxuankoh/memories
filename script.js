@@ -111,7 +111,7 @@ const selectImage = (e) => {
     }
     //Increment a display move
     movesCount += 1;
-    moves.innerText = `This is a 8 Piece Puzzle 🧩 || Number of Moves: ${movesCount}`;
+    moves.innerText = `利用空格移动方块直到正确顺序排列🧩|| Number of Moves: ${movesCount}`;
   }
 };
 
@@ -124,7 +124,7 @@ startButton.addEventListener("click", () => {
   randomImages();
   gridGenerator();
   movesCount = 0;
-  moves.innerText = `This is a 8 Piece Puzzle 🧩 || Number of Moves: ${movesCount}`;
+  moves.innerText = `利用空格移动方块直到正确顺序排列🧩|| Number of Moves: ${movesCount}`;
 });
 
 //Display start screen first
